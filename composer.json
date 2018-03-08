@@ -1,5 +1,5 @@
 {
-    "name":         "knplabs/knp-gaufrette-bundle",
+    "name":         "gs_fork_knplabs/knp-gaufrette-bundle",
     "type":         "symfony-bundle",
     "description":  "Allows to easily use the Gaufrette library in a Symfony project",
     "keywords":     ["file", "filesystem", "media", "abstraction"],
@@ -16,7 +16,7 @@
         }
     ],
     "require":      {
-        "knplabs/gaufrette": "~0.1.7|~0.2|~0.3|~0.4|~0.5",
+        "knplabs/gaufrette": "dev-feature/opencloud-adapter-exceptions",
         "symfony/config": "~2.1|~3.0|~4.0",
         "symfony/dependency-injection": "~2.1|~3.0|~4.0",
         "symfony/framework-bundle": "~2.0|~3.0|~4.0"
