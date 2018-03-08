@@ -37,7 +37,7 @@ class OpenStackAdapterFactory implements AdapterFactoryInterface
      */
     public function getKey()
     {
-        return 'opencloud';
+        return 'openstack';
     }
 
     /**
